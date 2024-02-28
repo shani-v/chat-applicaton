@@ -30,7 +30,6 @@ const Login = () => {
         }
       })
   }
-
   return (
     <>
       <section className='bg-gray-50 '>
@@ -86,7 +85,6 @@ const Login = () => {
                     required=''
                   />
                 </div>
-
                 <button
                   onClick={(e) => {
                     handelSubmit(e)

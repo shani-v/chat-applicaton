@@ -47,6 +47,7 @@ const ChatR = () => {
 
   const sendChat = () => {
     const db = getDatabase()
+    console.log(db)
     const chatRef = push(chatListRef)
     set(chatRef, {
       name,
