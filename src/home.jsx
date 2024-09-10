@@ -2,7 +2,7 @@ import React from 'react'
 import ChatR from './chatR'
 const home = () => {
   return (
-    <div>
+    <div className=''>
       <ChatR />
     </div>
   )
